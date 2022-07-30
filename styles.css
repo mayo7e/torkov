@@ -12,18 +12,21 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Ibarra Real Nova', serif;
+    text-shadow: 0px 0px 2px black ;
     
-
 }
+
+/* Sub-Header Section -Start-- */
 .sub-header{
         color: azure;
 }
+/* Sub-Header Section -End-- */
 
-img {
-    width: 100px;
-}
+/* Her0-section -Start-- */
+
 .torshov-img{
-    background-image:  url("/images/torshov.jpg");
+    background-image:  url("images/torshov.jpg");
+    object-fit:cover;
     background-size: cover;
     height: 350px;
     display: flex;
@@ -34,31 +37,47 @@ img {
 }
 
 .hero-header{
-    background: #457B9D;
-    border: 2px solid  dimgrey;
+    background: #cdcacc;
+    /* border: 2px solid  dimgrey; */
     border-radius: 10px;
     padding: 8px 9px;
     margin: 50px auto 10px
    
 } 
 .hero-text{
-    background: #1D3557;
-    border: 2px solid  dimgrey;
+    background: #CDE9EE;
+    /* border: 2px solid  dimgrey; */
     border-radius: 10px;
     padding: 8px 9px;
     margin-top: 0px;
     width: 450px;
+    /* text-shadow: 0px 0px 2px black ; */
     
 }
+/* Her0-section -End-- */
+
+img {
+    width: 100px;
+}
+h2{
+    font-weight: bolder;
+}
+
+/* Activities-Section -Start-- */
+
 .torshov-activities{
     display: flex;
-    flex-direction: c; 
-    align-items:  center;
+    justify-content:  space-around;
+    flex-wrap: wrap;
      color: #1D3557;
 }
 .activity-img{
     border-radius: 50%;
 }
+/* Activities-Section -End-- */
+
+/* Guide-Section -Start-- */
+
 .guide{
     border-radius: 5px;
     border: 1px solid #1D3557;
@@ -66,8 +85,7 @@ img {
     width: 380px;
     display: flex;
     margin: 50px auto;
-    background: #457B;
-   
+    background: #CDE9EE; 
 }
 .guide-info{
     display: flex;
@@ -82,7 +100,7 @@ img {
     height: 250px;
     padding: 10px;
     border-radius: 15px;
-
 }
+/* Guide-Section -End-- */
 
 
