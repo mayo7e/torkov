@@ -12,7 +12,7 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Ibarra Real Nova', serif;
-    text-shadow: 0px 0px 2px black ;
+    text-shadow: 0px 0px 1px rgb(39, 39, 39) ;
     
 }
 
@@ -45,7 +45,7 @@ body {
    
 } 
 .hero-text{
-    background: #CDE9EE;
+    background: #a6d7e0;
     /* border: 2px solid  dimgrey; */
     border-radius: 10px;
     padding: 8px 9px;
